@@ -20,6 +20,9 @@ var sound15 = document.getElementsByTagName("audio")[15];
 
 
 $('.sound0').on("click", function() {
+  if(sound0.currentTime != 0) {
+    sound0.currentTime = 0;
+  }
   sound0.play();
 });
 
