@@ -1,0 +1,36 @@
+
+body {
+  width: 100%;
+}
+
+.button-row {
+  text-align: center;
+}
+
+button {
+  width: 100px;
+  height: 100px;
+  margin: 20px 50px;
+  border-radius: 50%;
+  outline: none;
+}
+
+.bulge {
+  background: url("assets/images/wesbulge.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.dent {
+  background: url("assets/images/wesdent.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.frog {
+  background: url("assets/images/wesfrog.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.tunnel {
+  background: url("assets/images/weslighttunnel.jpg") no-repeat center;
+  background-size: cover;
+}
